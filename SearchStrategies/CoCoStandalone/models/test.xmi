@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<coCoMM:CoCo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:coCoMM="http://www.example.org/coCoMM">
+  <featureModels name="root1">
+    <root id="root1_root" name="root" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+      <treeConstraints>
+        <children id="root1_F1" name="F1" featureModel="//@featureModels.0" mandatory="true">
+          <featureAttributes attrType="Atribute1" defaultValue="5" minValue="0" maxValue="100"/>
+          <featureAttributes attrType="Atribute0" defaultValue="94" minValue="0" maxValue="100"/>
+        </children>
+      </treeConstraints>
+      <treeConstraints>
+        <children id="root1_F2" name="F2" featureModel="//@featureModels.0" mandatory="true">
+          <featureAttributes attrType="Atribute1" defaultValue="31" minValue="0" maxValue="100"/>
+          <featureAttributes attrType="Atribute0" defaultValue="51" minValue="0" maxValue="100"/>
+        </children>
+      </treeConstraints>
+      <treeConstraints>
+        <children id="root1_F3" name="F3" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+          <treeConstraints>
+            <children id="root1_F9" name="F9" featureModel="//@featureModels.0">
+              <featureAttributes attrType="Atribute1" defaultValue="14" minValue="0" maxValue="100"/>
+              <featureAttributes attrType="Atribute0" defaultValue="41" minValue="0" maxValue="100"/>
+            </children>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+      <treeConstraints>
+        <children id="root1_F4" name="F4" featureModel="//@featureModels.0" mandatory="true">
+          <featureAttributes attrType="Atribute1" defaultValue="39" minValue="0" maxValue="100"/>
+          <featureAttributes attrType="Atribute0" defaultValue="12" minValue="0" maxValue="100"/>
+        </children>
+      </treeConstraints>
+      <treeConstraints>
+        <children id="root1_F5" name="F5" featureModel="//@featureModels.0" mandatory="true">
+          <featureAttributes attrType="Atribute1" defaultValue="27" minValue="0" maxValue="100"/>
+          <featureAttributes attrType="Atribute0" defaultValue="88" minValue="0" maxValue="100"/>
+        </children>
+      </treeConstraints>
+      <treeConstraints type="Or">
+        <children id="root1_F6" name="F6" featureModel="//@featureModels.0">
+          <featureAttributes attrType="Atribute1" defaultValue="81" minValue="0" maxValue="100"/>
+          <featureAttributes attrType="Atribute0" defaultValue="91" minValue="0" maxValue="100"/>
+        </children>
+        <children id="root1_F7" name="F7" abstract="true" featureModel="//@featureModels.0">
+          <treeConstraints>
+            <children id="root1_F8" name="F8" featureModel="//@featureModels.0">
+              <featureAttributes attrType="Atribute1" defaultValue="49" minValue="0" maxValue="100"/>
+              <featureAttributes attrType="Atribute0" defaultValue="74" minValue="0" maxValue="100"/>
+            </children>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+    </root>
+    <ctConstraints>
+      <expressions features="root1_F8 root1_F2"/>
+    </ctConstraints>
+  </featureModels>
+  <attributeTypes id="Atribute1" name="Atribute1" dataType="int"/>
+  <attributeTypes id="Atribute0" name="Atribute0" dataType="int"/>
+</coCoMM:CoCo>

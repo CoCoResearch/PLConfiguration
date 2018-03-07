@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coCoMM:CoCo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:coCoMM="http://www.example.org/coCoMM">
+  <featureModels name="Cloud" isDomain="true" id="cl">
+    <root id="cl_cloud" name="Cloud" featureModel="//@featureModels.0">
+      <treeConstraints>
+        <children id="cl_authentication" name="Authentication" featureModel="//@featureModels.0">
+          <treeConstraints type="Or">
+            <children id="cl_auth_saml" name="SAML" featureModel="//@featureModels.0"/>
+            <children id="cl_auth_oauth" name="OAUTH" featureModel="//@featureModels.0"/>
+            <children id="cl_auth_pki" name="PKI" featureModel="//@featureModels.0"/>
+            <children id="cl_auth_otp" name="OTP" featureModel="//@featureModels.0">
+              <treeConstraints type="Or">
+                <children id="cl_auth_otp_sms" name="SMS" featureModel="//@featureModels.0"/>
+                <children id="cl_auth_otp_email" name="EMAIL" featureModel="//@featureModels.0"/>
+              </treeConstraints>
+            </children>
+            <children id="cl_auth_push" name="PUSH" featureModel="//@featureModels.0"/>
+            <children id="cl_auth_token" name="TOKEN" featureModel="//@featureModels.0">
+              <treeConstraints type="Or">
+                <children id="cl_auth_token_hard" name="HARD" featureModel="//@featureModels.0"/>
+                <children id="cl_auth_token_soft" name="SOFT" featureModel="//@featureModels.0"/>
+              </treeConstraints>
+            </children>
+            <children id="cld_auth_qrcode" name="QR CODE" featureModel="//@featureModels.0"/>
+          </treeConstraints>
+        </children>
+        <children id="cl_compute" name="Compute" featureModel="//@featureModels.0">
+          <treeConstraints type="Or">
+            <children id="cl_compute_osinstances" name="OS Instances" featureModel="//@featureModels.0">
+              <treeConstraints type="Or">
+                <children id="cl_compute_osinstances_windows" name="Windows" featureModel="//@featureModels.0">
+                  <featureAttributes attrType="sla" defaultValue="9995"/>
+                </children>
+                <children id="cl_compute_osinstances_linux" name="Linux" featureModel="//@featureModels.0">
+                  <treeConstraints type="Or">
+                    <children id="cl_compute_osinstances_linux_ubuntu" name="Ubuntu" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="sla" defaultValue="9995"/>
+                    </children>
+                    <children id="cl_compute_osinstances_linux_debian" name="Debian" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="sla" defaultValue="9995"/>
+                    </children>
+                    <children id="cl_compute_osinstances_linux_redhat" name="Red Hat" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="sla" defaultValue="9995"/>
+                    </children>
+                    <children id="cl_compute_osinstances_linux_fedora" name="Fedora" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="sla" defaultValue="9995"/>
+                    </children>
+                    <children id="cl_compute_osinstances_linux_suse" name="Suse" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="sla" defaultValue="9995"/>
+                    </children>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="cl_compute_appplatform" name="App Platform" featureModel="//@featureModels.0"/>
+            <children id="cl_compute_containers" name="Containers" featureModel="//@featureModels.0"/>
+            <children id="cl_compute_autoscaling" name="Autoscaling" featureModel="//@featureModels.0"/>
+          </treeConstraints>
+        </children>
+        <children id="cl_storage" name="Storage" featureModel="//@featureModels.0">
+          <treeConstraints type="Or">
+            <children id="cl_storage_block" name="Block" featureModel="//@featureModels.0">
+              <treeConstraints type="Or">
+                <children id="cl_storage_block_hdd" name="HDD" featureModel="//@featureModels.0"/>
+                <children id="cl_storage_block_ssd" name="SSD" featureModel="//@featureModels.0"/>
+              </treeConstraints>
+            </children>
+            <children id="cl_storage_object" name="Object" featureModel="//@featureModels.0">
+              <featureAttributes attrType="sla" defaultValue="9995"/>
+            </children>
+            <children id="cl_storage_cache" name="Cache" featureModel="//@featureModels.0">
+              <treeConstraints>
+                <children id="cl_storage_cache_engine" name="Cache Engine" featureModel="//@featureModels.0">
+                  <treeConstraints type="Or">
+                    <children id="cl_storage_cache_memcache" name="Memcache" featureModel="//@featureModels.0"/>
+                    <children id="cl_storage_cache_memcached" name="Memcached" featureModel="//@featureModels.0"/>
+                    <children id="cl_storage_cache_redis" name="Redis" featureModel="//@featureModels.0"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="cl_storage_database" name="Database" featureModel="//@featureModels.0">
+              <treeConstraints>
+                <children id="cl_storage_db_engine" name="DBEngine" abstract="true" featureModel="//@featureModels.0">
+                  <treeConstraints type="Or">
+                    <children id="cl_storage_database_dbengine_sql" name="SQL" featureModel="//@featureModels.0">
+                      <treeConstraints type="Or">
+                        <children id="cl_storage_database_dbengine_sql_posgresql" name="PostgreSQL" featureModel="//@featureModels.0"/>
+                        <children id="cl_storage_database_dbengine_sql_mysql" name="MySQL" featureModel="//@featureModels.0"/>
+                        <children id="cl_storage_database_dbengine_sql_sqlserver" name="SQLServer" featureModel="//@featureModels.0"/>
+                        <children id="cl_storage_database_dbengine_sql_oracle" name="Oracle" featureModel="//@featureModels.0"/>
+                      </treeConstraints>
+                    </children>
+                    <children id="cl_storage_database_dbengine_nosql" name="NoSQL" featureModel="//@featureModels.0"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_signature" name="Signature" featureModel="//@featureModels.0"/>
+        <children id="cl_messaging" name="Messaging" featureModel="//@featureModels.0">
+          <treeConstraints type="Or">
+            <children id="cl_messaging_queues" name="Queues" featureModel="//@featureModels.0"/>
+            <children id="cl_messaging_notification" name="Notifications" featureModel="//@featureModels.0"/>
+            <children id="cl_messaging_mailing" name="Mailing" featureModel="//@featureModels.0"/>
+          </treeConstraints>
+        </children>
+        <children id="cl_network" name="Networking" featureModel="//@featureModels.0">
+          <treeConstraints type="Or">
+            <children id="cl_networking_cdn" name="CDN" featureModel="//@featureModels.0"/>
+            <children id="cl_networking_dns" name="DNS" featureModel="//@featureModels.0"/>
+            <children id="cl_networking_loadbalancing" name="Load Balancing" featureModel="//@featureModels.0"/>
+          </treeConstraints>
+        </children>
+        <children id="cl_monitoring" name="Monitoring" featureModel="//@featureModels.0"/>
+        <children id="cl_audit" name="Audit" featureModel="//@featureModels.0"/>
+      </treeConstraints>
+    </root>
+    <ctConstraints>
+      <expressions features="cl_signature cl_compute"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="cl_signature cl_storage"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="cl_signature cl_authentication"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="cl_signature cl_audit"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="cl_compute cl_authentication"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="cl_audit cl_compute"/>
+    </ctConstraints>
+  </featureModels>
+  <featureModels name="AWS" id="aws">
+    <root id="cl_aws" name="AWS" featureModel="//@featureModels.1">
+      <treeConstraints>
+        <children id="cl_aws_compute" name="AWS:Compute" featureModel="//@featureModels.1">
+          <treeConstraints>
+            <children id="cl_aws_compute_ec2" name="AWS:EC2" featureModel="//@featureModels.1">
+              <treeConstraints>
+                <children id="cl_aws_compute_ec2_windows" name="Windows" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="sla" defaultValue="9995"/>
+                  <featureAttributes attrType="scalability" defaultValue="1"/>
+                </children>
+                <children id="cl_compute_ec2_linux" name="Linux" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="sla" defaultValue="9995"/>
+                  <featureAttributes attrType="scalability" defaultValue="1"/>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="cl_aws_compute_lambda" name="AWS:Lambda" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_aws_compute_container_service" name="AWS:Container Service" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_aws_storage" name="AWS:Storage" featureModel="//@featureModels.1">
+          <treeConstraints type="Or">
+            <children id="cl_aws_storage_s3" name="AWS:S3" featureModel="//@featureModels.1">
+              <featureAttributes attrType="sla" defaultValue="9999"/>
+              <featureAttributes attrType="scalability" defaultValue="2" maxValue=""/>
+            </children>
+            <children id="cl_aws_storage_ebs" name="AWS:EBS" featureModel="//@featureModels.1">
+              <treeConstraints>
+                <children id="cl_aws_storage_ebs_ssd" name="SSD" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+                <children id="cl_aws_storage_ebs_magnetic" name="Magnetic" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="cl_aws_storage_glacier" name="AWS:Glacier" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="1"/>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_aws_database" name="AWS:Database" featureModel="//@featureModels.1">
+          <treeConstraints type="Or">
+            <children id="cl_aws_database_aurora" name="AWS:Aurora" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_aws_storage_rds" name="AWS:RDS" featureModel="//@featureModels.1">
+              <treeConstraints>
+                <children id="cl_aws_database_posgresql" name="PosgreSQL" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+                <children id="cl_aws_database_rds_mysql" name="MySQL" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="scalability" defaultValue="2" minValue=""/>
+                </children>
+                <children id="cl_aws_database_rds_sqlserver" name="SQLServer" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+                <children id="cl_aws_database_rds_oracle" name="Oracle" featureModel="//@featureModels.1">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_aws_messaging" name="AWS:Messaging" featureModel="//@featureModels.1">
+          <treeConstraints type="Or">
+            <children id="cl_aws_messaging_ses" name="AWS:SES" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="1"/>
+            </children>
+            <children id="cl_aws_messaging_sns" name="AWS:SNS" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_aws_networking" name="AWS:Networking" featureModel="//@featureModels.1" mandatory="true">
+          <treeConstraints>
+            <children id="cl_aws_networking_cloudfront" name="AWS:Cloudfront" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_aws_networking_route53" name="AWS:Route53" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_aws_networking_elb" name="AWS:ELB" featureModel="//@featureModels.1">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_aws_authentication" name="AWS:Authentication" featureModel="//@featureModels.1"/>
+      </treeConstraints>
+    </root>
+  </featureModels>
+  <featureModels name="GCP" id="gcp">
+    <root id="cl_gcp" name="GCP" featureModel="//@featureModels.2">
+      <treeConstraints>
+        <children id="cl_gcp_compute" name="GCP:Compute" featureModel="//@featureModels.2" mandatory="true">
+          <treeConstraints type="Or">
+            <children id="cl_gcp_compute_computeengine" name="GCP:Compute Engine" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="1"/>
+            </children>
+            <children id="cl_gcp_compute_appengine" name="GCP:App Engine" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_gcp_compute_containerengine" name="GCP:Container Engine" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_gcp_storage" name="GCP:Storage" featureModel="//@featureModels.2">
+          <treeConstraints type="Or">
+            <children id="cl_gcp_storage_object" name="GCP:Object Storage" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_gcp_database" name="GCP:Database" featureModel="//@featureModels.2">
+              <treeConstraints>
+                <children id="cl_gcp_database_nosql" name="NoSQL" featureModel="//@featureModels.2">
+                  <treeConstraints>
+                    <children id="cl_gcp_database_nosql_datastore" name="Datastore" featureModel="//@featureModels.2">
+                      <featureAttributes attrType="scalability" defaultValue="3"/>
+                    </children>
+                    <children id="cl_gcp_database_bigtable" name="BigTable" featureModel="//@featureModels.2">
+                      <featureAttributes attrType="scalability" defaultValue="1"/>
+                    </children>
+                  </treeConstraints>
+                </children>
+                <children id="cl_gcp_storage_database_cloudsql" name="CloudSQL" featureModel="//@featureModels.2">
+                  <featureAttributes attrType="scalability" defaultValue="1"/>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="cl_gcp_storage_cloudstorage" name="GCP:Cloud Storage" featureModel="//@featureModels.2">
+              <treeConstraints>
+                <children id="cl_gcp_storage_standard" name="Standard" featureModel="//@featureModels.2">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+                <children id="cl_gcp_storage_nearline" name="Nearline" featureModel="//@featureModels.2">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+                <children id="cl_gcp_storage_coldline" name="Coldline" featureModel="//@featureModels.2">
+                  <featureAttributes attrType="scalability" defaultValue="2"/>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="cl_gcp_storage_bigtable" name="GCP:BigTable" featureModel="//@featureModels.2"/>
+          </treeConstraints>
+        </children>
+        <children id="cl_gcp_networking" name="GCP:Networking" featureModel="//@featureModels.2">
+          <treeConstraints type="Or">
+            <children id="cl_gcp_cdn" name="GCP:CDN" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_gcp_dns" name="GCP:DNS" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+            <children id="cl_gcp_loadbalancing" name="GCP:Load Balancing" featureModel="//@featureModels.2">
+              <featureAttributes attrType="scalability" defaultValue="2"/>
+            </children>
+          </treeConstraints>
+        </children>
+        <children id="cl_gcp_authentication" name="GCP:Authentication" featureModel="//@featureModels.2">
+          <treeConstraints>
+            <children id="cl_gcp_authentication_iam" name="GCP:IAM" featureModel="//@featureModels.2" mandatory="true"/>
+          </treeConstraints>
+        </children>
+        <children id="cl_gcp_bigdata" name="GCP:BigData" featureModel="//@featureModels.2">
+          <treeConstraints>
+            <children id="cl_gcp_bigdata_pubsub" name="GCP:Pub/Sub" featureModel="//@featureModels.2" mandatory="true">
+              <featureAttributes attrType="scalability" defaultValue="3"/>
+            </children>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+    </root>
+  </featureModels>
+  <cmConstraints>
+    <expressions features="cl_authentication cl_gcp_authentication_iam"/>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_compute cl_aws_compute"/>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_compute cl_gcp_compute_computeengine"/>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_storage">
+      <expressions op="or" features="cl_gcp_storage cl_aws_storage"/>
+    </expressions>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_authentication cl_aws_authentication"/>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_authentication cl_gcp_authentication"/>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_messaging">
+      <expressions op="or" features="cl_aws_messaging cl_gcp_bigdata_pubsub"/>
+    </expressions>
+  </cmConstraints>
+  <cmConstraints>
+    <expressions features="cl_network">
+      <expressions op="or" features="cl_aws_networking cl_gcp_networking"/>
+    </expressions>
+  </cmConstraints>
+  <configConstraints xsi:type="coCoMM:OptimizationCC" id="cc1" name="CC1">
+    <funtion attrType="sla"/>
+  </configConstraints>
+  <configConstraints xsi:type="coCoMM:OptimizationCC" id="cc2" name="CC2">
+    <funtion attrType="scalability"/>
+  </configConstraints>
+  <configConstraints xsi:type="coCoMM:SelectionStateCC" type="selectionState" id="cc3" name="CC3" featureModel="//@featureModels.0" feature="cl_signature"/>
+  <configConstraints xsi:type="coCoMM:SelectionStateCC" type="selectionState" id="cc4" name="CC4" featureModel="//@featureModels.0" feature="cl_storage"/>
+  <configConstraints xsi:type="coCoMM:SelectionStateCC" type="selectionState" id="cc5" name="CC5" featureModel="//@featureModels.0" feature="cl_authentication"/>
+  <configConstraints xsi:type="coCoMM:SelectionStateCC" type="selectionState" id="cc6" name="CC6" featureModel="//@featureModels.1" feature="cl_aws_compute_ec2" state="forbidden"/>
+  <attributeTypes id="sla" name="SLA" dataType="int"/>
+  <attributeTypes id="scalability" name="Scalability" dataType="int"/>
+</coCoMM:CoCo>

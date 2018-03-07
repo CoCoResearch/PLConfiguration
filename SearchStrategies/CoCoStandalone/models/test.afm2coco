@@ -1,0 +1,25 @@
+%Features
+root, F1, F2, F3, F4, F5, F2, F6, F7, F4, F8, F8, F9, 
+
+%Relationships
+root : [F1]  F2 [F3]  F4  F5 ;
+F2 :  F6  F7 ;
+F4 : [F8] ;
+F8 : [F9] ;
+
+%Attributes
+F1.Atribute1: Integer[0 to 100],36,0;
+F1.Atribute0: Integer[0 to 100],12,0;
+F6.Atribute1: Integer[0 to 100],36,0;
+F6.Atribute0: Integer[0 to 100],18,0;
+F7.Atribute1: Integer[0 to 100],75,0;
+F7.Atribute0: Integer[0 to 100],48,0;
+F3.Atribute1: Integer[0 to 100],13,0;
+F3.Atribute0: Integer[0 to 100],48,0;
+F9.Atribute1: Integer[0 to 100],26,0;
+F9.Atribute0: Integer[0 to 100],63,0;
+F5.Atribute1: Integer[0 to 100],90,0;
+F5.Atribute0: Integer[0 to 100],88,0;
+
+%Constraints
+F3 EXCLUDES F1;

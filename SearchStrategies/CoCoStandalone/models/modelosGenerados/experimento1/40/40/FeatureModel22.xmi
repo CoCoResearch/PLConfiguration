@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ASCII"?>
+<coCoMM:CoCo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:coCoMM="http://www.example.org/coCoMM">
+  <featureModels name="root1">
+    <root id="root1_root" name="root" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+      <treeConstraints>
+        <children id="root1_F1" name="F1" featureModel="//@featureModels.0">
+          <featureAttributes attrType="Atribute1" defaultValue="9" minValue="0" maxValue="100"/>
+          <featureAttributes attrType="Atribute0" defaultValue="64" minValue="0" maxValue="100"/>
+        </children>
+      </treeConstraints>
+      <treeConstraints>
+        <children id="root1_F2" name="F2" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+          <treeConstraints>
+            <children id="root1_F3" name="F3" abstract="true" featureModel="//@featureModels.0">
+              <treeConstraints type="Or">
+                <children id="root1_F4" name="F4" abstract="true" featureModel="//@featureModels.0">
+                  <treeConstraints>
+                    <children id="root1_F32" name="F32" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="Atribute1" defaultValue="32" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="35" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints type="Or">
+                    <children id="root1_F33" name="F33" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="Atribute1" defaultValue="22" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="2" minValue="0" maxValue="100"/>
+                    </children>
+                    <children id="root1_F34" name="F34" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="Atribute1" defaultValue="44" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="28" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                </children>
+                <children id="root1_F5" name="F5" featureModel="//@featureModels.0">
+                  <featureAttributes attrType="Atribute1" defaultValue="100" minValue="0" maxValue="100"/>
+                  <featureAttributes attrType="Atribute0" defaultValue="81" minValue="0" maxValue="100"/>
+                </children>
+                <children id="root1_F6" name="F6" abstract="true" featureModel="//@featureModels.0">
+                  <treeConstraints>
+                    <children id="root1_F7" name="F7" featureModel="//@featureModels.0" mandatory="true">
+                      <featureAttributes attrType="Atribute1" defaultValue="97" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="22" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F8" name="F8" featureModel="//@featureModels.0" mandatory="true">
+                      <featureAttributes attrType="Atribute1" defaultValue="57" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="98" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F9" name="F9" abstract="true" featureModel="//@featureModels.0">
+                      <treeConstraints>
+                        <children id="root1_F35" name="F35" featureModel="//@featureModels.0" mandatory="true">
+                          <featureAttributes attrType="Atribute1" defaultValue="28" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="85" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F36" name="F36" featureModel="//@featureModels.0" mandatory="true">
+                          <featureAttributes attrType="Atribute1" defaultValue="89" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="63" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F37" name="F37" featureModel="//@featureModels.0" mandatory="true">
+                          <featureAttributes attrType="Atribute1" defaultValue="45" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="93" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F10" name="F10" featureModel="//@featureModels.0">
+                      <featureAttributes attrType="Atribute1" defaultValue="82" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="98" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F11" name="F11" featureModel="//@featureModels.0" mandatory="true">
+                      <featureAttributes attrType="Atribute1" defaultValue="79" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="34" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F12" name="F12" abstract="true" featureModel="//@featureModels.0">
+                      <treeConstraints>
+                        <children id="root1_F26" name="F26" featureModel="//@featureModels.0" mandatory="true">
+                          <featureAttributes attrType="Atribute1" defaultValue="91" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="39" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F13" name="F13" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                      <treeConstraints>
+                        <children id="root1_F24" name="F24" featureModel="//@featureModels.0">
+                          <featureAttributes attrType="Atribute1" defaultValue="68" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="20" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F25" name="F25" featureModel="//@featureModels.0">
+                          <featureAttributes attrType="Atribute1" defaultValue="0" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="94" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F14" name="F14" featureModel="//@featureModels.0" mandatory="true">
+                      <featureAttributes attrType="Atribute1" defaultValue="36" minValue="0" maxValue="100"/>
+                      <featureAttributes attrType="Atribute0" defaultValue="72" minValue="0" maxValue="100"/>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints>
+                    <children id="root1_F15" name="F15" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                      <treeConstraints>
+                        <children id="root1_F16" name="F16" featureModel="//@featureModels.0">
+                          <featureAttributes attrType="Atribute1" defaultValue="54" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="2" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F17" name="F17" featureModel="//@featureModels.0" mandatory="true">
+                          <featureAttributes attrType="Atribute1" defaultValue="21" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="40" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F18" name="F18" featureModel="//@featureModels.0">
+                          <featureAttributes attrType="Atribute1" defaultValue="1" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="56" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F19" name="F19" featureModel="//@featureModels.0">
+                          <featureAttributes attrType="Atribute1" defaultValue="46" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="51" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F20" name="F20" featureModel="//@featureModels.0">
+                          <featureAttributes attrType="Atribute1" defaultValue="54" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="21" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F21" name="F21" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                          <treeConstraints>
+                            <children id="root1_F27" name="F27" featureModel="//@featureModels.0" mandatory="true">
+                              <featureAttributes attrType="Atribute1" defaultValue="62" minValue="0" maxValue="100"/>
+                              <featureAttributes attrType="Atribute0" defaultValue="40" minValue="0" maxValue="100"/>
+                            </children>
+                          </treeConstraints>
+                          <treeConstraints>
+                            <children id="root1_F28" name="F28" featureModel="//@featureModels.0" mandatory="true">
+                              <featureAttributes attrType="Atribute1" defaultValue="35" minValue="0" maxValue="100"/>
+                              <featureAttributes attrType="Atribute0" defaultValue="47" minValue="0" maxValue="100"/>
+                            </children>
+                          </treeConstraints>
+                          <treeConstraints type="Or">
+                            <children id="root1_F29" name="F29" featureModel="//@featureModels.0">
+                              <featureAttributes attrType="Atribute1" defaultValue="100" minValue="0" maxValue="100"/>
+                              <featureAttributes attrType="Atribute0" defaultValue="86" minValue="0" maxValue="100"/>
+                            </children>
+                            <children id="root1_F30" name="F30" featureModel="//@featureModels.0">
+                              <featureAttributes attrType="Atribute1" defaultValue="59" minValue="0" maxValue="100"/>
+                              <featureAttributes attrType="Atribute0" defaultValue="90" minValue="0" maxValue="100"/>
+                            </children>
+                            <children id="root1_F31" name="F31" abstract="true" featureModel="//@featureModels.0">
+                              <treeConstraints>
+                                <children id="root1_F39" name="F39" featureModel="//@featureModels.0" mandatory="true">
+                                  <featureAttributes attrType="Atribute1" defaultValue="30" minValue="0" maxValue="100"/>
+                                  <featureAttributes attrType="Atribute0" defaultValue="1" minValue="0" maxValue="100"/>
+                                </children>
+                              </treeConstraints>
+                            </children>
+                          </treeConstraints>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F22" name="F22" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                          <treeConstraints>
+                            <children id="root1_F38" name="F38" featureModel="//@featureModels.0">
+                              <featureAttributes attrType="Atribute1" defaultValue="59" minValue="0" maxValue="100"/>
+                              <featureAttributes attrType="Atribute0" defaultValue="99" minValue="0" maxValue="100"/>
+                            </children>
+                          </treeConstraints>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints>
+                        <children id="root1_F23" name="F23" featureModel="//@featureModels.0" mandatory="true">
+                          <featureAttributes attrType="Atribute1" defaultValue="37" minValue="0" maxValue="100"/>
+                          <featureAttributes attrType="Atribute0" defaultValue="45" minValue="0" maxValue="100"/>
+                        </children>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+    </root>
+    <ctConstraints>
+      <expressions features="root1_F34 root1_F31"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="root1_F5">
+        <expressions op="not" features="root1_F16"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="root1_F35">
+        <expressions op="not" features="root1_F26"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions features="root1_F21">
+        <expressions op="not" features="root1_F14"/>
+      </expressions>
+    </ctConstraints>
+  </featureModels>
+  <attributeTypes id="Atribute1" name="Atribute1" dataType="int"/>
+  <attributeTypes id="Atribute0" name="Atribute0" dataType="int"/>
+</coCoMM:CoCo>

@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coCoMM:CoCo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:coCoMM="http://www.example.org/coCoMM">
+  <featureModels name="root1">
+    <root id="root1_root" name="root" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+      <treeConstraints type="And">
+        <children id="root1_F1" name="F1" abstract="true" featureModel="//@featureModels.0">
+          <treeConstraints type="And">
+            <children id="root1_F18" name="F18" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.0 //@attributeTypes.1/@featureAttributes.0"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F19" name="F19" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.1 //@attributeTypes.1/@featureAttributes.1" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F20" name="F20" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.2 //@attributeTypes.1/@featureAttributes.2" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F21" name="F21" abstract="true" featureModel="//@featureModels.0">
+              <treeConstraints type="And">
+                <children id="root1_F140" name="F140" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.3 //@attributeTypes.1/@featureAttributes.3" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F141" name="F141" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.4 //@attributeTypes.1/@featureAttributes.4"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F142" name="F142" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.5 //@attributeTypes.1/@featureAttributes.5" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F143" name="F143" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.6 //@attributeTypes.1/@featureAttributes.6"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F144" name="F144" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.7 //@attributeTypes.1/@featureAttributes.7" mandatory="true"/>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F22" name="F22" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.8 //@attributeTypes.1/@featureAttributes.8" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F23" name="F23" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+              <treeConstraints type="And">
+                <children id="root1_F54" name="F54" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.9 //@attributeTypes.1/@featureAttributes.9" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F55" name="F55" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.10 //@attributeTypes.1/@featureAttributes.10" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="Or">
+                <children id="root1_F56" name="F56" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.11 //@attributeTypes.1/@featureAttributes.11"/>
+                <children id="root1_F57" name="F57" abstract="true" featureModel="//@featureModels.0">
+                  <treeConstraints type="And">
+                    <children id="root1_F132" name="F132" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.12 //@attributeTypes.1/@featureAttributes.12" mandatory="true"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F58" name="F58" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.13 //@attributeTypes.1/@featureAttributes.13" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F59" name="F59" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.14 //@attributeTypes.1/@featureAttributes.14" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F60" name="F60" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.15 //@attributeTypes.1/@featureAttributes.15" mandatory="true"/>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F24" name="F24" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+              <treeConstraints type="And">
+                <children id="root1_F61" name="F61" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.16 //@attributeTypes.1/@featureAttributes.16"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F62" name="F62" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.17 //@attributeTypes.1/@featureAttributes.17" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F63" name="F63" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.18 //@attributeTypes.1/@featureAttributes.18" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F64" name="F64" abstract="true" featureModel="//@featureModels.0">
+                  <treeConstraints type="And">
+                    <children id="root1_F75" name="F75" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.19 //@attributeTypes.1/@featureAttributes.19"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F76" name="F76" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.20 //@attributeTypes.1/@featureAttributes.20" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F77" name="F77" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                      <treeConstraints type="And">
+                        <children id="root1_F118" name="F118" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.21 //@attributeTypes.1/@featureAttributes.21"/>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F78" name="F78" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.22 //@attributeTypes.1/@featureAttributes.22" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F79" name="F79" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.23 //@attributeTypes.1/@featureAttributes.23"/>
+                  </treeConstraints>
+                  <treeConstraints type="Or">
+                    <children id="root1_F80" name="F80" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.24 //@attributeTypes.1/@featureAttributes.24"/>
+                    <children id="root1_F81" name="F81" abstract="true" featureModel="//@featureModels.0">
+                      <treeConstraints type="And">
+                        <children id="root1_F85" name="F85" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                          <treeConstraints type="And">
+                            <children id="root1_F124" name="F124" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.25 //@attributeTypes.1/@featureAttributes.25" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F125" name="F125" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.26 //@attributeTypes.1/@featureAttributes.26"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F126" name="F126" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.27 //@attributeTypes.1/@featureAttributes.27"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F127" name="F127" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.28 //@attributeTypes.1/@featureAttributes.28"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F128" name="F128" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.29 //@attributeTypes.1/@featureAttributes.29" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F129" name="F129" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.30 //@attributeTypes.1/@featureAttributes.30" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F130" name="F130" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.31 //@attributeTypes.1/@featureAttributes.31" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F131" name="F131" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.32 //@attributeTypes.1/@featureAttributes.32" mandatory="true"/>
+                          </treeConstraints>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints type="And">
+                        <children id="root1_F86" name="F86" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.33 //@attributeTypes.1/@featureAttributes.33" mandatory="true"/>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F82" name="F82" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.34 //@attributeTypes.1/@featureAttributes.34" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F83" name="F83" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.35 //@attributeTypes.1/@featureAttributes.35" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F84" name="F84" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.36 //@attributeTypes.1/@featureAttributes.36" mandatory="true"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F65" name="F65" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.37 //@attributeTypes.1/@featureAttributes.37" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="Or">
+                <children id="root1_F66" name="F66" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.38 //@attributeTypes.1/@featureAttributes.38"/>
+                <children id="root1_F67" name="F67" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.39 //@attributeTypes.1/@featureAttributes.39"/>
+              </treeConstraints>
+              <treeConstraints type="Or">
+                <children id="root1_F68" name="F68" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.40 //@attributeTypes.1/@featureAttributes.40"/>
+                <children id="root1_F69" name="F69" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.41 //@attributeTypes.1/@featureAttributes.41"/>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F25" name="F25" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.42 //@attributeTypes.1/@featureAttributes.42" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F26" name="F26" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+              <treeConstraints type="And">
+                <children id="root1_F74" name="F74" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.43 //@attributeTypes.1/@featureAttributes.43"/>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+      <treeConstraints type="And">
+        <children id="root1_F2" name="F2" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.44 //@attributeTypes.1/@featureAttributes.44" mandatory="true"/>
+      </treeConstraints>
+      <treeConstraints type="And">
+        <children id="root1_F3" name="F3" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+          <treeConstraints type="And">
+            <children id="root1_F70" name="F70" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.45 //@attributeTypes.1/@featureAttributes.45"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F71" name="F71" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.46 //@attributeTypes.1/@featureAttributes.46"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F72" name="F72" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.47 //@attributeTypes.1/@featureAttributes.47"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F73" name="F73" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+              <treeConstraints type="And">
+                <children id="root1_F100" name="F100" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.48 //@attributeTypes.1/@featureAttributes.48" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F101" name="F101" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.49 //@attributeTypes.1/@featureAttributes.49"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F102" name="F102" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.50 //@attributeTypes.1/@featureAttributes.50"/>
+              </treeConstraints>
+              <treeConstraints type="Or">
+                <children id="root1_F103" name="F103" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.51 //@attributeTypes.1/@featureAttributes.51"/>
+                <children id="root1_F104" name="F104" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.52 //@attributeTypes.1/@featureAttributes.52"/>
+                <children id="root1_F105" name="F105" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.53 //@attributeTypes.1/@featureAttributes.53"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F106" name="F106" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.54 //@attributeTypes.1/@featureAttributes.54" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F107" name="F107" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.55 //@attributeTypes.1/@featureAttributes.55" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F108" name="F108" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.56 //@attributeTypes.1/@featureAttributes.56" mandatory="true"/>
+              </treeConstraints>
+            </children>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+      <treeConstraints type="And">
+        <children id="root1_F4" name="F4" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.57 //@attributeTypes.1/@featureAttributes.57" mandatory="true"/>
+      </treeConstraints>
+      <treeConstraints type="And">
+        <children id="root1_F5" name="F5" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+          <treeConstraints type="And">
+            <children id="root1_F8" name="F8" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.58 //@attributeTypes.1/@featureAttributes.58"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F9" name="F9" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.59 //@attributeTypes.1/@featureAttributes.59" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="Or">
+            <children id="root1_F10" name="F10" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.60 //@attributeTypes.1/@featureAttributes.60"/>
+            <children id="root1_F11" name="F11" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.61 //@attributeTypes.1/@featureAttributes.61"/>
+            <children id="root1_F12" name="F12" abstract="true" featureModel="//@featureModels.0">
+              <treeConstraints type="And">
+                <children id="root1_F27" name="F27" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.62 //@attributeTypes.1/@featureAttributes.62" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F28" name="F28" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.63 //@attributeTypes.1/@featureAttributes.63" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F29" name="F29" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.64 //@attributeTypes.1/@featureAttributes.64"/>
+              </treeConstraints>
+              <treeConstraints type="Or">
+                <children id="root1_F30" name="F30" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.65 //@attributeTypes.1/@featureAttributes.65"/>
+                <children id="root1_F31" name="F31" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.66 //@attributeTypes.1/@featureAttributes.66"/>
+                <children id="root1_F32" name="F32" abstract="true" featureModel="//@featureModels.0">
+                  <treeConstraints type="And">
+                    <children id="root1_F87" name="F87" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.67 //@attributeTypes.1/@featureAttributes.67"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F33" name="F33" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.68 //@attributeTypes.1/@featureAttributes.68" mandatory="true"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F34" name="F34" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                  <treeConstraints type="And">
+                    <children id="root1_F36" name="F36" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                      <treeConstraints type="And">
+                        <children id="root1_F95" name="F95" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                          <treeConstraints type="And">
+                            <children id="root1_F147" name="F147" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.69 //@attributeTypes.1/@featureAttributes.69"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F148" name="F148" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.70 //@attributeTypes.1/@featureAttributes.70"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F149" name="F149" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.71 //@attributeTypes.1/@featureAttributes.71" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F150" name="F150" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.72 //@attributeTypes.1/@featureAttributes.72" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F151" name="F151" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.73 //@attributeTypes.1/@featureAttributes.73" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F152" name="F152" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.74 //@attributeTypes.1/@featureAttributes.74" mandatory="true"/>
+                          </treeConstraints>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints type="And">
+                        <children id="root1_F96" name="F96" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.75 //@attributeTypes.1/@featureAttributes.75" mandatory="true"/>
+                      </treeConstraints>
+                      <treeConstraints type="And">
+                        <children id="root1_F97" name="F97" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.76 //@attributeTypes.1/@featureAttributes.76"/>
+                      </treeConstraints>
+                      <treeConstraints type="Or">
+                        <children id="root1_F98" name="F98" abstract="true" featureModel="//@featureModels.0">
+                          <treeConstraints type="And">
+                            <children id="root1_F119" name="F119" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.77 //@attributeTypes.1/@featureAttributes.77"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F120" name="F120" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.78 //@attributeTypes.1/@featureAttributes.78" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F121" name="F121" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.79 //@attributeTypes.1/@featureAttributes.79"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F122" name="F122" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.80 //@attributeTypes.1/@featureAttributes.80" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F123" name="F123" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.81 //@attributeTypes.1/@featureAttributes.81" mandatory="true"/>
+                          </treeConstraints>
+                        </children>
+                        <children id="root1_F99" name="F99" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.82 //@attributeTypes.1/@featureAttributes.82"/>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F37" name="F37" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.83 //@attributeTypes.1/@featureAttributes.83" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F38" name="F38" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.84 //@attributeTypes.1/@featureAttributes.84"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F39" name="F39" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.85 //@attributeTypes.1/@featureAttributes.85"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F40" name="F40" abstract="true" featureModel="//@featureModels.0">
+                      <treeConstraints type="And">
+                        <children id="root1_F53" name="F53" abstract="true" featureModel="//@featureModels.0">
+                          <treeConstraints type="And">
+                            <children id="root1_F159" name="F159" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.86 //@attributeTypes.1/@featureAttributes.86" mandatory="true"/>
+                          </treeConstraints>
+                        </children>
+                      </treeConstraints>
+                    </children>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F41" name="F41" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.87 //@attributeTypes.1/@featureAttributes.87" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="Or">
+                    <children id="root1_F42" name="F42" abstract="true" featureModel="//@featureModels.0">
+                      <treeConstraints type="And">
+                        <children id="root1_F46" name="F46" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.88 //@attributeTypes.1/@featureAttributes.88" mandatory="true"/>
+                      </treeConstraints>
+                      <treeConstraints type="And">
+                        <children id="root1_F47" name="F47" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.89 //@attributeTypes.1/@featureAttributes.89" mandatory="true"/>
+                      </treeConstraints>
+                      <treeConstraints type="And">
+                        <children id="root1_F48" name="F48" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                          <treeConstraints type="And">
+                            <children id="root1_F109" name="F109" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.90 //@attributeTypes.1/@featureAttributes.90" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F110" name="F110" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.91 //@attributeTypes.1/@featureAttributes.91" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F111" name="F111" abstract="true" featureModel="//@featureModels.0">
+                              <treeConstraints type="And">
+                                <children id="root1_F136" name="F136" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.92 //@attributeTypes.1/@featureAttributes.92" mandatory="true"/>
+                              </treeConstraints>
+                              <treeConstraints type="And">
+                                <children id="root1_F137" name="F137" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.93 //@attributeTypes.1/@featureAttributes.93" mandatory="true"/>
+                              </treeConstraints>
+                              <treeConstraints type="And">
+                                <children id="root1_F138" name="F138" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.94 //@attributeTypes.1/@featureAttributes.94" mandatory="true"/>
+                              </treeConstraints>
+                              <treeConstraints type="And">
+                                <children id="root1_F139" name="F139" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.95 //@attributeTypes.1/@featureAttributes.95" mandatory="true"/>
+                              </treeConstraints>
+                            </children>
+                          </treeConstraints>
+                          <treeConstraints type="Or">
+                            <children id="root1_F112" name="F112" abstract="true" featureModel="//@featureModels.0">
+                              <treeConstraints type="Or">
+                                <children id="root1_F145" name="F145" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.96 //@attributeTypes.1/@featureAttributes.96"/>
+                                <children id="root1_F146" name="F146" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.97 //@attributeTypes.1/@featureAttributes.97"/>
+                              </treeConstraints>
+                            </children>
+                            <children id="root1_F113" name="F113" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.98 //@attributeTypes.1/@featureAttributes.98"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F114" name="F114" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.99 //@attributeTypes.1/@featureAttributes.99" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F115" name="F115" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                              <treeConstraints type="And">
+                                <children id="root1_F158" name="F158" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.100 //@attributeTypes.1/@featureAttributes.100"/>
+                              </treeConstraints>
+                            </children>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F116" name="F116" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.101 //@attributeTypes.1/@featureAttributes.101" mandatory="true"/>
+                          </treeConstraints>
+                          <treeConstraints type="And">
+                            <children id="root1_F117" name="F117" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.102 //@attributeTypes.1/@featureAttributes.102" mandatory="true"/>
+                          </treeConstraints>
+                        </children>
+                      </treeConstraints>
+                      <treeConstraints type="And">
+                        <children id="root1_F49" name="F49" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.103 //@attributeTypes.1/@featureAttributes.103" mandatory="true"/>
+                      </treeConstraints>
+                    </children>
+                    <children id="root1_F43" name="F43" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.104 //@attributeTypes.1/@featureAttributes.104"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F44" name="F44" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.105 //@attributeTypes.1/@featureAttributes.105" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F45" name="F45" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.106 //@attributeTypes.1/@featureAttributes.106" mandatory="true"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F35" name="F35" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.107 //@attributeTypes.1/@featureAttributes.107" mandatory="true"/>
+              </treeConstraints>
+            </children>
+            <children id="root1_F13" name="F13" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.108 //@attributeTypes.1/@featureAttributes.108"/>
+          </treeConstraints>
+          <treeConstraints type="Or">
+            <children id="root1_F14" name="F14" abstract="true" featureModel="//@featureModels.0">
+              <treeConstraints type="And">
+                <children id="root1_F50" name="F50" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.109 //@attributeTypes.1/@featureAttributes.109"/>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F51" name="F51" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                  <treeConstraints type="And">
+                    <children id="root1_F153" name="F153" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.110 //@attributeTypes.1/@featureAttributes.110"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F154" name="F154" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.111 //@attributeTypes.1/@featureAttributes.111"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F155" name="F155" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.112 //@attributeTypes.1/@featureAttributes.112" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F156" name="F156" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.113 //@attributeTypes.1/@featureAttributes.113" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="And">
+                    <children id="root1_F157" name="F157" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.114 //@attributeTypes.1/@featureAttributes.114" mandatory="true"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+              <treeConstraints type="And">
+                <children id="root1_F52" name="F52" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+                  <treeConstraints type="And">
+                    <children id="root1_F133" name="F133" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.115 //@attributeTypes.1/@featureAttributes.115" mandatory="true"/>
+                  </treeConstraints>
+                  <treeConstraints type="Or">
+                    <children id="root1_F134" name="F134" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.116 //@attributeTypes.1/@featureAttributes.116"/>
+                    <children id="root1_F135" name="F135" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.117 //@attributeTypes.1/@featureAttributes.117"/>
+                  </treeConstraints>
+                </children>
+              </treeConstraints>
+            </children>
+            <children id="root1_F15" name="F15" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.118 //@attributeTypes.1/@featureAttributes.118"/>
+            <children id="root1_F16" name="F16" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.119 //@attributeTypes.1/@featureAttributes.119"/>
+            <children id="root1_F17" name="F17" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.120 //@attributeTypes.1/@featureAttributes.120"/>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+      <treeConstraints type="And">
+        <children id="root1_F6" name="F6" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.121 //@attributeTypes.1/@featureAttributes.121" mandatory="true"/>
+      </treeConstraints>
+      <treeConstraints type="And">
+        <children id="root1_F7" name="F7" abstract="true" featureModel="//@featureModels.0" mandatory="true">
+          <treeConstraints type="And">
+            <children id="root1_F88" name="F88" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.122 //@attributeTypes.1/@featureAttributes.122"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F89" name="F89" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.123 //@attributeTypes.1/@featureAttributes.123"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F90" name="F90" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.124 //@attributeTypes.1/@featureAttributes.124" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F91" name="F91" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.125 //@attributeTypes.1/@featureAttributes.125"/>
+          </treeConstraints>
+          <treeConstraints type="And">
+            <children id="root1_F92" name="F92" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.126 //@attributeTypes.1/@featureAttributes.126" mandatory="true"/>
+          </treeConstraints>
+          <treeConstraints type="Or">
+            <children id="root1_F93" name="F93" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.127 //@attributeTypes.1/@featureAttributes.127"/>
+            <children id="root1_F94" name="F94" featureModel="//@featureModels.0" featureAttributes="//@attributeTypes.0/@featureAttributes.128 //@attributeTypes.1/@featureAttributes.128"/>
+          </treeConstraints>
+        </children>
+      </treeConstraints>
+    </root>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F139 root1_F89"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F12 root1_F75"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F25">
+        <expressions features="root1_F11"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F116 root1_F95"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F129">
+        <expressions features="root1_F57"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F156">
+        <expressions features="root1_F114"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F67 root1_F51"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F8">
+        <expressions features="root1_F116"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F26 root1_F101"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F143">
+        <expressions features="root1_F51"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F106 root1_F91"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F139 root1_F147"/>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F19">
+        <expressions features="root1_F110"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F75">
+        <expressions features="root1_F108"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F134">
+        <expressions features="root1_F113"/>
+      </expressions>
+    </ctConstraints>
+    <ctConstraints>
+      <expressions op="implies" features="root1_F29">
+        <expressions features="root1_F135"/>
+      </expressions>
+    </ctConstraints>
+  </featureModels>
+  <solutionConstraints xsi:type="coCoMM:OptimizationSC" type="optimization" funct="minimize" attrType="Atribute0"/>
+  <solutionConstraints xsi:type="coCoMM:OptimizationSC" type="optimization" attrType="Atribute1"/>
+  <attributeTypes id="Atribute1" name="Atribute1">
+    <elements name="minValue" dataType="int"/>
+    <elements name="maxValue" dataType="int"/>
+    <elements name="defaultValue" dataType="int"/>
+    <featureAttributes attrType="Atribute1" name="F18-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F19-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="72"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F20-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F140-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="24"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F141-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="49"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F142-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="1"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F143-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="66"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F144-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="32"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F22-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="51"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F54-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="32"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F55-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="12"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F56-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="97"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F132-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="69"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F58-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="61"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F59-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="49"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F60-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="1"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F61-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F62-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="74"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F63-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F75-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="6"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F76-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="31"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F118-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="69"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F78-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F79-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="5"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F80-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="94"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F124-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F125-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="56"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F126-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="65"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F127-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F128-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="85"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F129-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="99"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F130-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="86"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F131-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="90"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F86-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="20"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F82-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="90"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F83-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="17"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F84-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="11"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F65-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="32"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F66-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="21"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F67-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="30"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F68-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="81"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F69-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="81"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F25-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F74-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="16"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F2-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="29"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F70-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="36"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F71-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="37"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F72-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="60"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F100-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="85"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F101-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="21"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F102-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="19"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F103-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="34"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F104-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="99"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F105-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="93"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F106-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F107-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="72"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F108-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="92"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F4-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F8-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="85"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F9-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="47"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F10-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="46"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F11-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="30"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F27-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="3"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F28-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="68"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F29-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="72"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F30-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="33"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F31-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="79"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F87-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="33"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F33-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="99"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F147-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F148-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="47"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F149-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="43"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F150-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="83"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F151-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="12"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F152-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="87"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F96-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="47"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F97-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="23"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F119-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F120-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="76"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F121-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="62"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F122-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="37"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F123-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="48"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F99-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F37-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="17"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F38-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="31"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F39-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="46"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F159-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="29"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F41-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="86"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F46-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="67"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F47-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="93"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F109-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="39"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F110-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="18"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F136-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="17"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F137-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="28"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F138-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="86"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F139-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="96"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F145-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="47"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F146-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F113-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="92"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F114-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="58"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F158-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="77"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F116-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="36"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F117-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F49-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="69"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F43-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="17"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F44-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="20"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F45-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="78"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F35-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="43"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F13-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="54"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F50-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="87"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F153-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="50"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F154-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="38"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F155-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="62"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F156-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="76"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F157-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="23"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F133-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="67"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F134-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="56"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F135-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="95"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F15-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="74"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F16-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="17"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F17-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="92"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F6-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="98"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F88-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="82"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F89-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="63"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F90-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="15"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F91-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="98"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F92-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="32"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F93-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="7"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute1" name="F94-Atribute1">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="80"/>
+    </featureAttributes>
+  </attributeTypes>
+  <attributeTypes id="Atribute0" name="Atribute0">
+    <elements name="minValue" dataType="int"/>
+    <elements name="maxValue" dataType="int"/>
+    <elements name="defaultValue" dataType="int"/>
+    <featureAttributes attrType="Atribute0" name="F18-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="86"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F19-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="64"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F20-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="61"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F140-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="95"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F141-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="70"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F142-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="37"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F143-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="13"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F144-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="1"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F22-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="69"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F54-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="96"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F55-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="76"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F56-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="97"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F132-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="61"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F58-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="39"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F59-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="93"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F60-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="44"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F61-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="65"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F62-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="47"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F63-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="27"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F75-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="14"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F76-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="62"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F118-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="75"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F78-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="75"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F79-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="52"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F80-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="1"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F124-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="82"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F125-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="66"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F126-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="19"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F127-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="16"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F128-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="92"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F129-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="24"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F130-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="32"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F131-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="36"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F86-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="18"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F82-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="41"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F83-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="25"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F84-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="68"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F65-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="80"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F66-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="2"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F67-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="0"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F68-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="77"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F69-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="6"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F25-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="52"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F74-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="51"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F2-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F70-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="3"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F71-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="86"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F72-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="63"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F100-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="16"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F101-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="23"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F102-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="31"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F103-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="28"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F104-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="37"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F105-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="75"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F106-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="24"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F107-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="45"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F108-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="24"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F4-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="45"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F8-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="5"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F9-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="68"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F10-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F11-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="34"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F27-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="4"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F28-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="33"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F29-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="61"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F30-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="29"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F31-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="71"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F87-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="84"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F33-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="48"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F147-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="53"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F148-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="70"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F149-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="68"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F150-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="47"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F151-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="71"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F152-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="61"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F96-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="77"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F97-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="93"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F119-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="49"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F120-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="29"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F121-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="49"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F122-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="48"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F123-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="79"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F99-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="21"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F37-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="63"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F38-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="5"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F39-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="36"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F159-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="22"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F41-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F46-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="25"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F47-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="16"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F109-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="72"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F110-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="81"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F136-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="57"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F137-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="74"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F138-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="90"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F139-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="94"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F145-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="91"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F146-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="66"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F113-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="93"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F114-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F158-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="53"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F116-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="57"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F117-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="85"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F49-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="62"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F43-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="40"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F44-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="61"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F45-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="81"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F35-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="73"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F13-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="52"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F50-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="1"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F153-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="88"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F154-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="34"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F155-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="77"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F156-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="35"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F157-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="39"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F133-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F134-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F135-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="68"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F15-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="78"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F16-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="66"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F17-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="24"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F6-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="44"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F88-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="30"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F89-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="51"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F90-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="14"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F91-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="98"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F92-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="95"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F93-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="30"/>
+    </featureAttributes>
+    <featureAttributes attrType="Atribute0" name="F94-Atribute0">
+      <elements value="0"/>
+      <elements value="100"/>
+      <elements value="26"/>
+    </featureAttributes>
+  </attributeTypes>
+</coCoMM:CoCo>

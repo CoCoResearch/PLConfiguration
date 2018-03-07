@@ -1,0 +1,30 @@
+%Features
+Web, Portal, null, Protocols, NTTP, FTP, HTTPS, Banners, Image, Flash, Site_Statistics, Basic, Advanced, Security, Data_Storage, Data_Transfer, User_Authentication, Web_Portal, Additional_Services, Web_Server, Persistence, Security, Performance, Logging, DB, File, Persistence, XML, Database, Web_Server, Logging, Protocols, Content, Active, ASP, PHP, JSP, CGI, Content, Static, Active, Performance, Ms, Sec, Min, Site_Search, Images, Text, Text, HTML, Dynamic, Ad_Server, Reports, Pop, ups, Banners, Keyword_Support, Additional_Services, Site_Statistics, Site_Search, Ad_Server, 
+
+%Relationships
+Web Portal:null ;
+Protocols:[1,3] {NTTP FTP HTTPS };
+Banners:Image  [Flash] ;
+Site_Statistics:Basic  [Advanced] ;
+Security:[1,3] {Data_Storage Data_Transfer User_Authentication };
+Web_Portal:[Additional_Services]  Web_Server  [Persistence]  [Security]  [Performance] ;
+Logging:[1,1] {DB File };
+Persistence:[1,1] {XML Database };
+Web_Server:[Logging]  [Protocols]  Content ;
+Active:[1,4] {ASP PHP JSP CGI };
+Content:Static  [Active] ;
+Performance:[1,1] {Ms Sec Min };
+Site_Search:[Images]  [Text] ;
+Text:HTML  [Dynamic] ;
+Ad_Server:Reports  [Pop-ups]  Banners  [Keyword_Support] ;
+Additional_Services:[Site_Statistics]  [Site_Search]  [Ad_Server] ;
+
+
+%Attributes
+%Constraints
+Data_Transfer REQUIRES HTTPS;
+DB REQUIRES Database;
+HTTPS REQUIRES Ms;
+File REQUIRES FTP;
+Keyword_Support REQUIRES Text;
+Dynamic REQUIRES Active;

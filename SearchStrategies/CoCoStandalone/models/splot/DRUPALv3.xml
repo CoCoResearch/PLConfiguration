@@ -1,0 +1,47 @@
+<feature_model name="Drupal">
+<meta>
+<data name="description"></data>
+<data name="creator"></data>
+<data name="email"></data>
+<data name="date"></data>
+<data name="department"></data>
+<data name="organization"></data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website"></data>
+<data name="reference"></data>
+</meta><feature_tree>
+:r DRUPAL (DRUPAL)
+	:o BLOG (BLOG)
+	:o FORUM (FORUM)
+	:o BOOK (BOOK)
+	:o AGGREGATOR (AGGREGATOR)
+	:o LIST (LIST)
+	:o NUMBER (NUMBER)
+	:o OPTIONS (OPTIONS)
+	:o FIELD_UI (FIELD_UI)
+	:o IMAGE (IMAGE)
+	:o FILE (FILE)
+	:o TESTING (TESTING)
+	:o CTOOLS (CTOOLS)
+		:o CTOOLS_ACCESS_RULESET (CTOOLS_ACCESS_RULESET)
+		:o VIEWS_CONTENT (VIEWS_CONTENT)
+		:o CTOOLS_CUSTOM_CONTENT (CTOOLS_CUSTOM_CONTENT)
+	:o VIEWS (VIEWS)
+		:o VIEWS_UI (VIEWS_UI)
+	:o TAXONOMY (TAXONOMY)
+	:o COMMENT (COMMENT)
+	:o BLOCK (BLOCK)
+</feature_tree>
+<constraints>
+CTC-1: ~FORUM or TAXONOMY
+CTC-2: ~FORUM or OPTIONS
+CTC-3: ~FORUM or COMMENT
+CTC-4: ~LIST or OPTIONS
+CTC-5: ~IMAGE or FILE
+CTC-6: ~VIEWS_CONTENT or VIEWS
+CTC-7: ~VIEWS or CTOOLS
+CTC-8: ~VIEWS_UI or CTOOLS
+CTC-9: ~TAXONOMY or OPTIONS
+</constraints>
+</feature_model>

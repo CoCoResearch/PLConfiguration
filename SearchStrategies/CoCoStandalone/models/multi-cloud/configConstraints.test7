@@ -1,0 +1,17 @@
+Attribute_Types {
+	Atribute0 {
+		int minValue;
+		int maxValue;
+		int defaultValue;
+	}
+	Atribute1 {
+		int minValue;
+		int maxValue;
+		int defaultValue;
+	}
+}
+
+Solution_Constraints {
+	optimization R1: minimize Atribute0;
+	optimization R2: maximize Atribute1;
+}

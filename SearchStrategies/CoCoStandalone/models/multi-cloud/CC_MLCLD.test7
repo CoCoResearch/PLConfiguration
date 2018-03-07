@@ -1,0 +1,27 @@
+Attribute_Types {
+	SLA {
+		int defaultValue;
+	}
+	Scalability {
+		int defaultValue;
+	}
+}
+
+Features {
+	feature cl_authentication;
+	feature cl_signature;
+	feature cl_storage_object;
+	feature cl_messaging_notification;
+	feature cl_audit;
+}
+
+Solution_Constraints {
+	hardLimit R1: SLA geq 9980;
+	optimization R2: maximize Scalability;
+	selectionState R3: cl_signature mandatory;
+	selectionState R4: cl_storage_object mandatory;
+	selectionState R5: cl_messaging_notification mandatory;
+	selectionState R6: cl_audit mandatory;
+	selectionState R6: cl_authentication mandatory;
+}
+
