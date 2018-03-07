@@ -1,0 +1,80 @@
+%Features
+root, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, F13, F14, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24, F25, F26, F27, F28, F29, F30, F31, F32, F33, F34, F35, F36, F37, F38, F39, 
+
+%Relationships
+root :  F1  F2 ;
+F1 :  F3 ;
+F3 :  F4 ;
+F4 :  F5 [F6] ;
+F2 :  F7  F8 [F9] [F10]  F11  F12  F13  F14  F15 ;
+F9 : [F16]  F17 [F18] [1,2] {F19 F20 } F21  F22 ;
+F16 : [F39] ;
+F19 :  F38 ;
+F21 : [F23] [F24]  F25 [F26] [F27]  F28  F29 ;
+F26 : [F31] [F32] [F33]  F34  F35 [F36] ;
+F34 :  F37 ;
+F28 :  F30 ;
+
+%Attributes
+F5.Atribute1: Integer[0 to 100],49,0;
+F5.Atribute0: Integer[0 to 100],92,0;
+F6.Atribute1: Integer[0 to 100],34,0;
+F6.Atribute0: Integer[0 to 100],70,0;
+F7.Atribute1: Integer[0 to 100],33,0;
+F7.Atribute0: Integer[0 to 100],62,0;
+F8.Atribute1: Integer[0 to 100],70,0;
+F8.Atribute0: Integer[0 to 100],68,0;
+F39.Atribute1: Integer[0 to 100],5,0;
+F39.Atribute0: Integer[0 to 100],96,0;
+F17.Atribute1: Integer[0 to 100],45,0;
+F17.Atribute0: Integer[0 to 100],18,0;
+F18.Atribute1: Integer[0 to 100],9,0;
+F18.Atribute0: Integer[0 to 100],58,0;
+F38.Atribute1: Integer[0 to 100],68,0;
+F38.Atribute0: Integer[0 to 100],60,0;
+F20.Atribute1: Integer[0 to 100],84,0;
+F20.Atribute0: Integer[0 to 100],65,0;
+F23.Atribute1: Integer[0 to 100],88,0;
+F23.Atribute0: Integer[0 to 100],8,0;
+F24.Atribute1: Integer[0 to 100],0,0;
+F24.Atribute0: Integer[0 to 100],1,0;
+F25.Atribute1: Integer[0 to 100],96,0;
+F25.Atribute0: Integer[0 to 100],44,0;
+F31.Atribute1: Integer[0 to 100],69,0;
+F31.Atribute0: Integer[0 to 100],95,0;
+F32.Atribute1: Integer[0 to 100],35,0;
+F32.Atribute0: Integer[0 to 100],66,0;
+F33.Atribute1: Integer[0 to 100],60,0;
+F33.Atribute0: Integer[0 to 100],21,0;
+F37.Atribute1: Integer[0 to 100],71,0;
+F37.Atribute0: Integer[0 to 100],35,0;
+F35.Atribute1: Integer[0 to 100],95,0;
+F35.Atribute0: Integer[0 to 100],66,0;
+F36.Atribute1: Integer[0 to 100],29,0;
+F36.Atribute0: Integer[0 to 100],53,0;
+F27.Atribute1: Integer[0 to 100],60,0;
+F27.Atribute0: Integer[0 to 100],23,0;
+F30.Atribute1: Integer[0 to 100],69,0;
+F30.Atribute0: Integer[0 to 100],10,0;
+F29.Atribute1: Integer[0 to 100],90,0;
+F29.Atribute0: Integer[0 to 100],90,0;
+F22.Atribute1: Integer[0 to 100],20,0;
+F22.Atribute0: Integer[0 to 100],14,0;
+F10.Atribute1: Integer[0 to 100],77,0;
+F10.Atribute0: Integer[0 to 100],72,0;
+F11.Atribute1: Integer[0 to 100],1,0;
+F11.Atribute0: Integer[0 to 100],35,0;
+F12.Atribute1: Integer[0 to 100],63,0;
+F12.Atribute0: Integer[0 to 100],9,0;
+F13.Atribute1: Integer[0 to 100],59,0;
+F13.Atribute0: Integer[0 to 100],42,0;
+F14.Atribute1: Integer[0 to 100],98,0;
+F14.Atribute0: Integer[0 to 100],46,0;
+F15.Atribute1: Integer[0 to 100],28,0;
+F15.Atribute0: Integer[0 to 100],8,0;
+
+%Constraints
+F38 REQUIRES F35;
+F11 REQUIRES F20;
+F35 REQUIRES F27;
+F34 EXCLUDES F11;
