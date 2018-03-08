@@ -12,3 +12,8 @@ Each directory contains de FM original file or afm2coco for the SPLOT original m
 1.3.1 properties_exp_3: Contains the results files in .properties extension of the choco implementation over the 1.3 item files.
 
 2.Results.
+This directory have one folder per experiment and on every directoy is contained the csv files result of the processing of brute data, the R file to generate the graphs and the pdf file with the graphs generates for every experiment.
+
+3. SearchStrategies.
+This directory contains the java project for executing transformations, from .FM and SPLOT files to .properties and the execution over choco for statistics generation. The directory PLConfiguration/SearchStrategies/CoCoStandalone/src/coco/testing/ contains the java classes that executes the choco implementation and specifically the MainTransformedDynamic.java class contains the implementation of heuristics.
+This package depends on PLConfiguration/SearchStrategies/CoCoStandalone/src/pkg/ classes.
